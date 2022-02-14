@@ -114,4 +114,3 @@ plt.plot(df2["index"], df2[["Max_Temp_Per_Day", "Min_Temp_Per_Day"]], color = 'g
 plt.fill_between(x = df2["index"], y1 = df2["Max_Temp_Per_Day"], y2 = df2["Min_Temp_Per_Day"], color = 'gray', label = '2005-2014 Max/Min Temperatures', alpha = 0.50)
 plt.legend()
 plt.show()
-plt.show
